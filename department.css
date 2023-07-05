@@ -1,0 +1,78 @@
+ 
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;   
+    font-family: 'Kalam', cursive;
+}
+
+.headr{
+    display: flex;
+    flex-direction: row;
+    padding: 25px;
+    flex-wrap:wrap;
+    column-gap:300px;
+}
+.logo-text-large{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.logo-text-small{
+    font-size: 25px;
+    font-weight: bold;
+    position:absolute;
+    top:90px;
+    left:35%;
+}
+.navlist{
+    list-style: none;
+    align-items: center;
+    padding:0 150px 0 150px;
+    background-color: #8AAAE5;
+}
+.nav-item{
+    display: inline-block;
+    padding: 15px 40px;
+}
+
+.nav-item:hover{
+    background-color: #6692e4;
+    cursor: pointer; 
+    color:white; 
+    transform: scale(1.05);
+   
+}
+
+.nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+/*   department csss */
+.dept-list-container{
+    padding: 40px;
+} 
+.heading-dept{
+     padding: 10px;
+    font-weight: bold;
+    font-size:50px;
+}
+
+.dept-card{
+    width: 90%;
+    padding:10px;
+    font-size: 25px;
+}
+.dept-card-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 40px;
+    padding-right: 60px;
+}
